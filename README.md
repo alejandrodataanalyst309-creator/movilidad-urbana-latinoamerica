@@ -1,6 +1,6 @@
-Análisis de Movilidad Urbana y Desempeño Económico en Ciudades Latinoamericanas (2024)
+# Análisis de Movilidad Urbana y Desempeño Económico en Ciudades Latinoamericanas (2024)
 
-📌 Descripción del proyecto
+## 📌 Descripción del proyecto
 
 Este proyecto explora la relación entre la movilidad urbana y los indicadores económicos de diferentes ciudades latinoamericanas durante el año 2024.
 
@@ -8,7 +8,7 @@ A partir de datos del TomTom Traffic Index y OECD Cities, se analizan indicadore
 
 El propósito es transformar e integrar diferentes fuentes de datos para identificar patrones que contribuyan a comprender la relación entre el desempeño económico de las ciudades y sus condiciones de movilidad.
 
-🎯 Objetivos
+## 🎯 Objetivos
 
 Analizar los niveles de congestión vehicular y los tiempos de desplazamiento entre ciudades.
 
@@ -20,7 +20,7 @@ Identificar distribuciones, valores atípicos y posibles patrones en los indicad
 
 Generar un conjunto de datos consolidado que facilite futuros análisis.
 
-📊 Fuentes de datos
+## 📊 Fuentes de datos
 
 El proyecto utiliza dos fuentes principales:
 
@@ -46,7 +46,7 @@ Los archivos de entrada utilizados por el notebook son:
 
 Nota: los archivos originales deben estar disponibles en el entorno de ejecución. Si no se incluyen en el repositorio, será necesario obtenerlos de sus fuentes correspondientes.
 
-🛠️ Herramientas y tecnologías
+## 🛠️ Herramientas y tecnologías
 
 Python: lenguaje utilizado para el análisis de datos.
 
@@ -60,7 +60,7 @@ Seaborn: visualización y análisis exploratorio.
 
 Jupyter Notebook: desarrollo y documentación del análisis.
 
-🔍 Metodología
+## 🔍 Metodología
 
 El análisis se desarrolla mediante las siguientes etapas:
 
@@ -87,7 +87,7 @@ Se utilizan histogramas, diagramas de caja y gráficos de barras para estudiar l
 Exportación de los resultados
 Finalmente, se exporta el conjunto de datos integrado y procesado a un archivo CSV para facilitar su reutilización en otros análisis.
 
-📈 Variables principales
+## 📈 Variables principales
 
 Variable
 
@@ -137,7 +137,7 @@ population_m
 
 Variable poblacional transformada durante el procesamiento.
 
-💡 Hallazgos preliminares
+## 💡 Hallazgos preliminares
 
 El análisis exploratorio permite plantear preguntas sobre la relación entre el nivel de desarrollo económico y la congestión vehicular.
 
@@ -147,7 +147,7 @@ Estos patrones deben interpretarse como observaciones exploratorias. Las visuali
 
 Para profundizar en los resultados, sería conveniente calcular coeficientes de correlación y desarrollar modelos estadísticos que permitan evaluar estas relaciones de manera más rigurosa.
 
-📁 Estructura del proyecto
+## 📁 Estructura del proyecto
 
 Se propone organizar el repositorio de la siguiente manera:
 
@@ -165,7 +165,7 @@ requirements.txt: especifica las bibliotecas necesarias para ejecutar el anális
 
 Esta estructura es una propuesta de organización; los directorios y archivos deben crearse según la configuración final del repositorio.
 
-🚀 Instalación y ejecución
+## 🚀 Instalación y ejecución
 
 Requisitos previos
 
@@ -194,7 +194,7 @@ Abre el archivo ladb_mobility_economy_project_student.ipynb y ejecuta las celdas
 Revisar y exportar los resultados
 Examina las visualizaciones generadas y verifica el conjunto de datos procesado al finalizar la ejecución.
 
-📦 Resultado esperado
+## 📦 Resultado esperado
 
 El notebook genera el siguiente archivo de salida:
 
@@ -202,7 +202,7 @@ ladb_mobility_economy_2024_clean.csv
 
 Este archivo contiene los indicadores de movilidad y economía integrados para las observaciones de ciudad y año que coinciden en ambas fuentes durante 2024.
 
-⚠️ Limitaciones
+## ⚠️ Limitaciones
 
 El análisis se concentra en un solo año y no permite identificar tendencias de largo plazo.
 
@@ -214,7 +214,7 @@ Las asociaciones observadas no implican necesariamente relaciones de causalidad.
 
 La reproducción del análisis depende de la disponibilidad y calidad de los datos originales.
 
-🔮 Posibles mejoras
+## 🔮 Posibles mejoras
 
 Calcular correlaciones de Pearson y Spearman entre los indicadores de movilidad y economía.
 
@@ -228,8 +228,6 @@ Implementar validaciones automáticas para comprobar la calidad de los datos.
 
 Crear un dashboard interactivo que permita explorar los resultados.
 
-👤 Autor: Alejandro Valencia Lopez
-
-[Tu nombre]
+## 👤 Autor: Alejandro Valencia Lopez
 
 Proyecto de análisis de datos | Movilidad urbana | Indicadores económicos
